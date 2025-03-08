@@ -28,3 +28,17 @@ cite {
     text-align: right;
     font-size: smaller;
 }
+
+nav {
+    max-width: 110px;
+    margin: 15px;
+    padding: 12px;
+    background-color: #416393;
+    text-align: center;
+    font-size: smaller;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
