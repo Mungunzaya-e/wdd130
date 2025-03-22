@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+:root {
+    --primary-color: #2d6e91;
+    --secondary-color: #ffc814;
+    --accent1-color: #a9c9e1;
+    --accent2-color: #dbd8d2;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+body {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Oswald;
+    color: var(--primary-color);
+}
+
+.hero div {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.hero article {
+    position: absolute;
+    width: 50%;
+    top: 200px;
+    left: 25%;
+    right: 30%;
+    background-color: rgba(169, 201, 225, 0.8);
+    padding: 1rem;
+}
+
+h1 {
+    position: absolute;
+    top: 100px;
+    width: 70%;
+    background-color: rgba(30, 30, 30, 0.8);
+    font-family: Oswald;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+article img {
+    float: right;
+    max-width: 120px;
+    margin-left: 10px;
+    border: 3px solid #fff;
+}
+
+article p {
+    font-family: 'Source Sans 3';
+    color: #212121;
+    font-size: 105%;
+}
+
+section p {
+    font-family: 'Source Sans 3';
+    color: #212121;
+    font-size: 105%;
+}
+
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: var(--primary-color);
+    font-family: 'Source Sans 3';
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+footer img {
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+
