@@ -157,6 +157,8 @@ footer img {
     padding-right: 30px;
     padding-bottom: 30px;
     margin: 20px 0;
+    align-items: center;
+    max-height: 270px;
 }
 
 .history h2 {
@@ -168,12 +170,12 @@ footer img {
 
 .history img {
     width: 90%;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .history p {
-    display: flex;
-    align-items: flex-start;
+    /* display: flex;
+    align-items: flex-start; */
 }
 
 .adventure {
