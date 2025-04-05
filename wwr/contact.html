@@ -49,14 +49,17 @@
                 </fieldset>
                 <fieldset class="message">
                     <label for="purpose">Message purpose:</label>
-                    <input type="radio" id="purpose" name="purpose">General Inguiry</input>
-                    <input type="radio" name="purpose">Reservation Question</input>
-                    <input type="radio" name="purpose">Website Suggestion</input>
+                    <input type="radio" id="general" name="general">
+                    <label for="general">General Inguiry</label>
+                    <input type="radio" id="reservation" name="reservation">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="website" name="website">
+                    <label for="website">Website Suggestion</label>
                     <textarea name="feedback" id="feedback" rows="4" placeholder="Type in your message here ..." ></textarea>
                 </fieldset>
                 <fieldset class="checkbox">
                     <label for="monthly" class="pet">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" id="monthly" name="monthly"></input>
+                    <input type="checkbox" id="monthly" name="monthly">
                 </fieldset>
                 <button type="submit">Send message</button>
             </form>
