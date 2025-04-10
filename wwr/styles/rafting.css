@@ -118,10 +118,10 @@ section p {
 
 footer {
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 60% 20% 20%;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: var(--primary-color);
+    background-color: #12364a;
     font-family: 'Source Sans 3';
     color: white;
     text-align: center;
@@ -129,7 +129,17 @@ footer {
 }
 
 footer p {
+    grid-column: 1/2;
+    display: flex;
+    align-self: start;
+    padding-left: 5%;
+}
+
+footer a {
     grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
@@ -347,4 +357,315 @@ button {
     color: #fff;
     padding-right: 10px;
     font-size: small;
+    text-align: center;
+}
+
+.hero-trip {
+    position: relative;
+    max-width: 100%;
+    background-color: #a9c9e175;
+    padding-bottom: 10px;
+}
+
+.hero-trip img {
+    width: 100%;
+    height: 200px;
+}
+
+.hero-trip h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 10px #333, 0 0 10px #333;
+}
+
+.hero-trip button {
+    width: 200px;
+    background-color: #fff;
+    border: 2px solid #dbd8d2;
+    border-radius: 0;
+    position: absolute;
+    top: 78%;
+    right: 0;
+    transition: 0.5s;
+    font-family: Oswald;
+    font-size: medium;
+    line-height: 110%;
+    color: #2d6e91;
+}
+
+.hero-trip button:hover {
+    cursor: pointer;
+    background-color: #f0eee9;
+}
+
+.river {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    background-color: #a9c9e175;
+    margin-top: 20px;
+}
+
+.river img {
+    grid-column: 1/2;
+    width: 100%;
+}
+
+.river div {
+    padding: 0 30px;
+    background-color: #f0eee9;
+}
+
+.river h2 {
+    color: #2d6e91;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff;
+}
+
+.river ul {
+    font-family: 'Source Sans 3';
+}
+
+.river-002 {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    background-color: #a9c9e175;
+    margin-top: 20px;
+}
+
+.river-002 img {
+    grid-column: 2/3;
+    width: 100%;
+}
+
+.river-002 div {
+    padding: 0 30px;
+    background-color: #f0eee9;
+}
+
+.river-002 h2 {
+    color: #2d6e91;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff;
+}
+
+.river-002 ul {
+    font-family: 'Source Sans 3';
+}
+
+.table {
+    margin-top: 20px;
+    background-color: #a9c9e175;
+    font-family: 'Source Sans 3';
+    padding: 1em;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+caption {
+    font-family: Oswald;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2d6e91;
+    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff;
+}
+
+th {
+    padding: 5px;
+}
+
+thead {
+    background-color: #2d6e91;
+    color: #fff;
+    line-height: 110%;
+    height: 40px;
+}
+
+td {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.hero-home {
+    width: 100%;
+    position: relative;
+}
+
+.hero-home img {
+    width: 100%;
+}
+
+.hero-home h1 {
+    font-family: Oswald;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    transform: scale(3);
+    line-height: 110%;
+    color: #fff;
+    text-shadow: 0 0 7px #212121, 0 0 7px #212121, 0 0 7px #212121;
+}
+
+.hero-home p {
+    font-family: Oswald;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    transform: scale(3);
+    line-height: 110%;
+    color: #fff;
+    text-shadow: 0 0 7px #212121, 0 0 7px #212121, 0 0 7px #212121;
+}
+
+.offering {
+    position: absolute;
+    display: flex;
+    width: 80%;
+    bottom: 10%;
+    justify-content: space-around;
+}
+
+.offering figure {
+    margin: 1em;
+    transition: 0.3s ease;
+}
+
+.offering figure:hover {
+    transform: scale(1.1);
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 2fr;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-self: center;
+}
+
+.subscribe {
+    /* width: 400px; */
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    top: 3em;
+    margin: 2em 2em 2em 6em; */
+    background-color: #dbd8d287;
+    padding-bottom: 1em;
+    box-shadow: 0 0 10px #9b9b9b;
+}
+
+.subscribe h2 {
+    text-align: center;
+}
+
+.subscribe fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe input {
+    width: 150%;
+    margin: 0.5em;
+    height: 25px;
+    font-family: 'Source Sans 3';
+    font-size: medium;
+}
+
+.subscribe button {
+    font-family: 'Source Sans 3';
+    background-color: #2d6e91;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.subscribe button:hover {
+    background-color: #f0eee9;
+    color: #2d6e91;
+    cursor: pointer;
+}
+
+aside {
+    grid-column: 4/5;
+    display: flex;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+}
+
+aside p {
+    margin-right: 1em;
+    margin-top: 10%;
+    font-family: "Source Sans 3";
+    font-size: large;
+    /* width: 180px; */
+    font-style: italic;
+    font-weight: bold;
+}
+
+aside button {
+    height: 50px;
+    border-radius: 0;
+    clip-path: polygon(82% 0, 100% 50%, 82% 100%, 0% 100%, 17% 51%, 0% 0%);
+    border: 0;
+    background-color: #a9c9e1;
+    transition: 0.2s;
+}
+
+aside button:hover {
+    background-color: #2d6e91;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .hero-home h1 {
+        top: 20%;
+        transform: scale(1.5);
+    }
+    .hero-home p {
+        top: 5%;
+        font-size: large;
+        transform: scale(1.5);
+    }
+    .offering {
+        bottom: 40%;
+        justify-content: space-around;
+    }
+    .offering figure {
+        margin: 1em;
+        padding: 3.5px;
+    }
+    .bottom {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr 2fr;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-self: center;
+    }
+    .subscribe input {
+        width: 110%;
+    }
 }
