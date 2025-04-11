@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mungunzaya Enkhtuya's WDD 130 course Whitewater Rafting - About us page">
+    <meta name="description" content="Mungunzaya Enkhtuya's WDD 130 course Whitewater Rafting - Home page">
     <meta name="author" content="Mungunzaya Enkhtuya"> 
-    <title>About Us Page - Mungunzaya Enkhtuya - Whitewater Rafting Site</title>
+    <title>Home Page - Mungunzaya Enkhtuya - Whitewater Rafting Site</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -22,45 +22,59 @@
         </nav>
     </header>
     <main>
-        <div class="hero-home">
-            <img src="images/river-5556594_1280.jpg" alt="trips hero image background">
-            <h1>Whitewater Rafting</h1>
-            <p>The Best</p>
+        <div class="top">
+            <div class="hero-home">
+                <img src="images/river-5556594_1280.jpg" alt="trips hero image background">
+                <h1>Whitewater Rafting</h1>
+                <p>The Best</p>
+            </div>
+            <div class="bottom">
+                <div class="subscribe">
+                    <h2>Sign up to receive our newsletter!</h2>
+                    <form>
+                        <fieldset class="home-contact">
+                            <input type="text" id="name" name="name" placeholder="Name">
+                            <input type="email" id="useremail" name="useremail" placeholder="E-mail">
+                        </fieldset>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
+                <aside class="button">
+                    <p>Click here to find out more about our trips!</p>
+                    <button onclick="location.href='trips.html'" type="button"></button>
+                </aside>
+            </div>
         </div>
         <section class="offering">
             <figure class="home-fig">
                 <img src="images/rafting17_600.jpg" alt="adventure image 1">
-                <figcaption>Fun</figcaption>
+                <figcaption>
+                    <h3>Family Rafting</h3>
+                    <p>Salmon River Canyons is home to gentle rapids, spectacular canyon scenery, and natural riverside hot springs, making it the perfect playground for people of all ages.</p>
+                </figcaption>
             </figure>
             <figure class="home-fig">
                 <img src="images/rafting47_600.jpg" alt="adventure image 2">
-                <figcaption>Extreme</figcaption>
+                <figcaption>
+                    <h3>Extreme</h3>
+                    <p>Our company affors various adventures, and one of them is an extreme experience where you can challenge your patience and feel the adrenaline rush</p>
+                </figcaption>
             </figure>
             <figure class="home-fig">
                 <img src="images/rafting53_600.jpg" alt="adventure image 3">
-                <figcaption>Relaxing</figcaption>
+                <figcaption>
+                    <h3>Relaxing</h3>
+                    <p>If you're looking for a trip that will distress and provide the rest you need, you may want to choose our mild adventures. The atmosphere will give you the comfort you need.</p>
+                </figcaption>
             </figure>
             <figure class="home-fig">
                 <img src="images/rafting58_600.jpg" alt="adventure image 4">
-                <figcaption>Breathtaking</figcaption>
+                <figcaption>
+                    <h3>Breathtaking</h3>
+                    <p>Along with the adventures, you will see the beauty of nature and capture the beautiful sceneries. </p>
+                </figcaption>
             </figure>
         </section>
-        <div class="bottom">
-            <div class="subscribe">
-                <h2>Sign up to receive our newsletter!</h2>
-                <form>
-                    <fieldset class="home-contact">
-                        <input type="text" id="name" name="name" placeholder="Name">
-                        <input type="email" id="useremail" name="useremail" placeholder="E-mail">
-                    </fieldset>
-                    <button type="submit">Sign Up</button>
-                </form>
-            </div>
-            <aside class="button">
-                <p>Click here to find out more about our trips!</p>
-                <button onclick="location.href='trips.html'" type="button"></button>
-            </aside>
-        </div>
     </main>
     <footer>
         <p>©2025 • Whitewater Rafting • Mungunzaya Enkhtuya</p>
